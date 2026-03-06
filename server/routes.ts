@@ -20,7 +20,7 @@ async function seedDatabase() {
         await storage.createProject({
           title: "AlphaScope AI — Stock Analysis Engine",
           description: "Full-stack agentic AI prototype with dual-signal recommendations separating hold/sell guidance from buy/wait entry signals. Engineered a three-layer scoring pipeline using fundamental metrics, technical indicators (RSI, MACD, Bollinger Bands), and FinBERT NLP sentiment on financial news. Integrated Groq Llama 3.3 narratives and a RAG chat interface.",
-          imageUrl: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800",
+          imageUrl: "/Alphascope.png",
           tags: ["Python", "LLM", "RAG", "FinBERT", "Streamlit", "Groq"],
           githubUrl: "https://github.com/aryamaniboruah",
           liveUrl: "https://github.com/aryamaniboruah"
@@ -29,7 +29,7 @@ async function seedDatabase() {
         await storage.createProject({
           title: "Clinical Trial Navigator",
           description: "NLP-powered trial discovery engine matching patients to breast cancer trials using a three-layer pipeline: semantic search via sentence-transformer embeddings in ChromaDB, clinical NER with spaCy, and rule-based scoring. Composite relevance scores with LLM-generated clinician-friendly explanations and RAG chat.",
-          imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
+          imageUrl: "/clinical match.png",
           tags: ["NLP", "RAG", "ChromaDB", "spaCy", "HuggingFace", "LLM"],
           githubUrl: "https://github.com/aryamaniboruah",
           liveUrl: "https://github.com/aryamaniboruah"
@@ -38,7 +38,7 @@ async function seedDatabase() {
         await storage.createProject({
           title: "Customer LTV Intelligence Platform",
           description: "End-to-end analytics pipeline on 93,000 e-commerce customers predicting lifetime value from 12 RFM and behavioral features — identified and removed 4 leaky features to ensure generalizability. Delivered a 4-tab Streamlit dashboard with live single-customer scoring, bulk batch prediction, automated data drift alerts, and a model registry — translating outputs into High/Mid/Low value tier classifications.",
-          imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+          imageUrl: "/LTV.png",
           tags: ["Python", "ML", "Streamlit", "RFM", "XGBoost", "Data Drift"],
           githubUrl: "https://github.com/aryamaniboruah",
           liveUrl: "https://advertiser-ltv-predictor-7ds5ekxqzymugz4m5qpqci.streamlit.app/"
@@ -47,7 +47,7 @@ async function seedDatabase() {
         await storage.createProject({
           title: "Ad Creative Fatigue Detector",
           description: "Engineered 10+ behavioral signals from raw ad engagement time-series data — including CTR decay rates, impression velocity, and rolling engagement drop ratios — to detect when creatives lose effectiveness. Integrated SHAP explainability to surface top fatigue drivers per creative, deployed as a live Streamlit dashboard with batch scoring and per-prediction attribution.",
-          imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+          imageUrl: "/adcreative.png",
           tags: ["Python", "SHAP", "Streamlit", "Time-Series", "Ad Tech", "XGBoost"],
           githubUrl: "https://github.com/aryamaniboruah",
           liveUrl: "https://ad-creative-fatigue-detector-x48vy2qn6pt8nfqwxtnr82.streamlit.app/"
