@@ -35,12 +35,14 @@ export function Hero() {
 
           <FadeIn delay={0.5}>
             <div className="flex flex-wrap items-center gap-4 mt-10">
-              <a
+              
                 href="#projects"
                 className="group px-10 py-4 rounded-full font-bold bg-foreground text-background hover:scale-105 transition-all duration-300 shadow-xl"
               >
                 View Projects
               </a>
+            </div>
+          </FadeIn>
         </div>
 
         {/* Right Column - Photo */}
@@ -50,13 +52,13 @@ export function Hero() {
             <motion.div
               animate={{ y: [0, -12, 0] }}
               transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
-              className="relative w-80 h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10"
+              className="relative w-96 h-96 rounded-3xl overflow-hidden shadow-2xl border border-white/10"
             >
-            <img
-  src="/avatar.png"
-  alt="Aryamani Boruah"
-  className="w-full h-full object-cover"
-/>
+              <img
+                src="/avatar.png"
+                alt="Aryamani Boruah"
+                className="w-full h-full object-cover"
+              />
             </motion.div>
           </FadeIn>
         </div>
