@@ -55,7 +55,7 @@ export function Hero() {
               className="relative w-96 h-96 rounded-3xl overflow-hidden shadow-2xl border border-white/10"
             >
               <img
-                src="/avatar.png"
+                src= "/avatar.png"
                 alt="Aryamani Boruah"
                 className="w-full h-full object-cover"
               />
