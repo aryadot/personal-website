@@ -41,14 +41,6 @@ export function Hero() {
               >
                 View Projects
               </a>
-              <a
-                href="#contact"
-                className="px-8 py-4 rounded-full font-semibold border border-foreground/20 text-foreground/70 hover:text-foreground hover:border-foreground/40 transition-all duration-300"
-              >
-                Get in Touch
-              </a>
-            </div>
-          </FadeIn>
         </div>
 
         {/* Right Column - Photo */}
@@ -61,7 +53,7 @@ export function Hero() {
               className="relative w-80 h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10"
             >
               <img
-                src="/avatar.jpeg"
+                src="/avatar.png"
                 alt="Aryamani Boruah"
                 className="w-full h-full object-cover"
               />
