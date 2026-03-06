@@ -29,7 +29,7 @@ async function seedDatabase() {
         await storage.createProject({
           title: "Clinical Trial Navigator",
           description: "NLP-powered trial discovery engine matching patients to breast cancer trials using a three-layer pipeline: semantic search via sentence-transformer embeddings in ChromaDB, clinical NER with spaCy, and rule-based scoring. Composite relevance scores with LLM-generated clinician-friendly explanations and RAG chat.",
-          imageUrl: "/clinical match.png",
+          imageUrl: "/clinicalmatch.png",
           tags: ["NLP", "RAG", "ChromaDB", "spaCy", "HuggingFace", "LLM"],
           githubUrl: "https://github.com/aryamaniboruah",
           liveUrl: "https://github.com/aryamaniboruah"
