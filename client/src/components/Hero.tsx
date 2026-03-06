@@ -41,7 +41,7 @@ export function Hero() {
               transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
               className="relative w-96 h-96 rounded-3xl overflow-hidden shadow-2xl border border-white/10"
             >
-              <img src="/avatar.png" alt="Aryamani Boruah" className="w-full h-full object-cover" />
+              <img src="/1.png" alt="Aryamani Boruah" className="w-full h-full object-cover" />
             </motion.div>
           </FadeIn>
         </div>
