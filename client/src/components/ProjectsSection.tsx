@@ -67,9 +67,6 @@ export function ProjectsSection() {
           <h2 className="text-6xl md:text-7xl font-display font-bold text-gradient mb-8">
             My <span className="accent-gradient">Projects.</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            End-to-end ML systems, LLM applications, and deployed AI prototypes.
-          </p>
         </div>
       </FadeIn>
 

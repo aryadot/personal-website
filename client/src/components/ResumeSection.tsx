@@ -80,9 +80,6 @@ export function ResumeSection() {
           <h2 className="text-6xl md:text-7xl font-display font-bold text-gradient mb-8">
             My <span className="accent-gradient">Resume.</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Experience, research, and skills — all in one place.
-          </p>
         </div>
       </FadeIn>
 
